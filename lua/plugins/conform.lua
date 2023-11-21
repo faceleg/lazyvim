@@ -15,10 +15,12 @@ return {
         fish = { "fish_indent" },
         css = { "stylelint" },
         html = { "prettier" },
-        javascript = { { "prettierd", "prettier" } },
+        javascript = { { "eslint" } },
         lua = { "stylua" },
         markdown = { "prettier" },
         sh = { "shfmt" },
+        yaml = { "yamllint", "yamlfmt" },
+        rubny = { "rubocop" },
       },
       -- The options you set here will be merged with the builtin formatters.
       -- You can also define any custom formatters here.
